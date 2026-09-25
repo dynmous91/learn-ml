@@ -1,0 +1,26 @@
+2026-09-26 01:42:45,225 - datagen.main - INFO - Starting synthetic dataset generation
+2026-09-26 01:42:45,226 - datagen.generator - INFO - Generating 10000 rows with 10 features
+2026-09-26 01:42:45,226 - datagen.generator - INFO - Generating feature: model_year
+2026-09-26 01:42:45,226 - datagen.generator - INFO - Generating feature: origin
+2026-09-26 01:42:45,226 - datagen.generator - INFO - Generating feature: fuel_type
+2026-09-26 01:42:45,227 - datagen.generator - INFO - Generating feature: drivetrain
+2026-09-26 01:42:45,227 - datagen.generator - INFO - Generating feature: num_doors
+2026-09-26 01:42:45,227 - datagen.generator - INFO - Generating feature: engine_displacement
+2026-09-26 01:42:45,230 - datagen.generator - INFO - Generating feature: num_cylinders
+2026-09-26 01:42:45,232 - datagen.generator - INFO - Generating feature: horsepower
+2026-09-26 01:42:45,234 - datagen.generator - INFO - Generating feature: vehicle_weight
+2026-09-26 01:42:45,236 - datagen.generator - INFO - Generating feature: acceleration
+2026-09-26 01:42:45,242 - datagen.generator - INFO - Rounded model_year to whole numbers
+2026-09-26 01:42:45,243 - datagen.generator - INFO - Rounded num_doors to integers
+2026-09-26 01:42:45,243 - datagen.generator - INFO - Rounded engine_displacement to nearest 10
+2026-09-26 01:42:45,244 - datagen.generator - INFO - Rounded num_cylinders to integers
+2026-09-26 01:42:45,244 - datagen.generator - INFO - Rounded horsepower to whole numbers
+2026-09-26 01:42:45,245 - datagen.generator - INFO - Rounded vehicle_weight to nearest 10
+2026-09-26 01:42:45,245 - datagen.generator - INFO - Rounded acceleration to 1 decimal places
+2026-09-26 01:42:45,248 - datagen.generator - INFO - Applied 35.0% conditional missingness to horsepower
+2026-09-26 01:42:45,248 - datagen.generator - INFO - Applied 2.0% conditional missingness to horsepower
+2026-09-26 01:42:45,249 - datagen.generator - INFO - Applied 10.0% conditional missingness to acceleration
+2026-09-26 01:42:45,261 - datagen.generator - INFO - Dataset generated in 0.03s
+2026-09-26 01:42:45,275 - datagen.generator - INFO - Dataset saved to ../data/car_fuel_efficiency_2026.csv
+2026-09-26 01:42:45,275 - datagen.generator - INFO - Report saved to ../data/car_fuel_efficiency_2026_report.json
+2026-09-26 01:42:45,282 - datagen.main - INFO - Generation completed successfully
